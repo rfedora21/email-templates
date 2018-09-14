@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>No photos for you on Shutterfly</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+<style type="text/css">
+    
+    /* CLIENT-SPECIFIC STYLES */
+    body, table, td, a{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+    table, td{mso-table-lspace: 0pt; mso-table-rspace: 0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+    img{-ms-interpolation-mode: bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+    /* RESET STYLES */
+    img{border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;}
+    table{border-collapse: collapse !important; margin: 0 auto !important; }
+    body{height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important;}
+    
+    /* Gmail app fix to prevent font size increase */
+    .gmailfix {display: none; display: none !important;}
+    
+    button {display: block !important}
+    div {display: block !important}
+    
+    /* This overwrites Hotmails line-height and resets it to 100% */
+    .ExternalClass * { line-height: 100%; }
+
+
+    /* iOS BLUE LINKS */
+    a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+    }
+    
+    body {
+        font-family: Avenir-Roman, Helvetica, Arial, sans-serif;
+    }
+
+    /* MOBILE STYLES */
+    @media screen and (max-width: 570px) {
+        
+         @font-face {
+            font-family: "Avenir-Roman";
+            font-weight: 400;
+            src: url("/css/fonts/2f5a6074-badc-4e08-83f1-ed67fe5c3d7c.eot?iefix");
+            src: local('Avenir LT W01 55 Roman'),
+            url("/css/fonts/b9ebb19d-88c1-4cbd-9baf-cf51972422ec.woff") format("woff"),
+            url("/css/fonts/5ed4f98e-9044-4810-88ff-74d412c1351f.ttf") format("truetype"),
+            url("/css/fonts/4cb16859-16ca-4342-b89c-292dc83266af.svg#4cb16859-16ca-4342-b89c-292dc83266af") format("svg");
+            *src: url("/css/fonts/2f5a6074-badc-4e08-83f1-ed67fe5c3d7c.eot?iefix") format('eot');
+        }
+        
+        @font-face {
+            font-family: "Avenir-Heavy";
+            font-weight: 700;
+            src: url("/css/fonts/f61bf0f6-c193-4100-b940-12a1a01dcee5.eot?iefix");
+            src: local('Avenir LT W01 85 Heavy'),
+            url("/css/fonts/7147ec3a-8ff8-4ec9-8c5c-bd1571dc6ae6.woff") format("woff"),
+            url("/css/fonts/d1dc54b2-878d-4693-8d6e-b442e99fef68.ttf") format("truetype"),
+            url("/css/fonts/731dd4d3-64da-427d-ba61-01575b3cf3f7.svg#731dd4d3-64da-427d-ba61-01575b3cf3f7") format("svg");
+            *src: url("/css/fonts/f61bf0f6-c193-4100-b940-12a1a01dcee5.eot?iefix") format('eot');
+        }
+        
+         @font-face {
+            font-family: "Avenir-Book";
+            font-weight: 300;
+            src: url("/css/fonts/4f32268f-fd86-4960-b72c-4bb1ba75ec6f.eot?iefix");
+            src: local('Avenir LT W01 45 Book'),
+            url("/css/fonts/939cba03-5b40-4d01-9bc5-7589eca863db.woff") format("woff"),
+            url("/css/fonts/849bc5b9-a2ff-4343-977b-26ba8bd24a60.ttf") format("truetype"),
+            url("/css/fonts/f67fa3b5-c1d1-488f-8e60-a828b9ad56a4.svg#f67fa3b5-c1d1-488f-8e60-a828b9ad56a4") format("svg");
+            *src: url("/css/fonts/4f32268f-fd86-4960-b72c-4bb1ba75ec6f.eot?iefix") format('eot');
+        }
+
+
+        /* ALLOWS FOR FLUID TABLES */
+        .wrapper {
+          width: 100% !important;
+        	max-width: 100% !important;
+        }
+
+        /* ADJUSTS LAYOUT OF LOGO IMAGE */
+        .logo img {
+          margin: 0 auto !important;
+        }
+
+        /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+        .mobile-hide {
+          display: none !important;
+        }
+
+        .img-max {
+          max-width: 100% !important;
+          width: 100% !important;
+          height: auto !important;
+        }
+
+        /* FULL-WIDTH TABLES */
+        .responsive-table {
+          width: 100% !important;
+        }
+
+        /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+        .padding {
+          padding: 0 3% 15px 3% !important;
+        }
+        
+        .padding-button {
+          padding: 0 3% 20px 3% !important;
+        }
+        
+        .padding-link {
+          padding: 20px 0 10px 0 !important;
+        }
+
+        .padding-meta {
+          padding: 30px 5% 0px 5% !important;
+          text-align: center;
+        }
+
+        .no-padding {
+          padding: 0 !important;
+        }
+
+        .section-padding {
+          padding: 0 10px 50px 10px !important;
+        }
+
+        /* ADJUST BUTTONS ON MOBILE */
+        .mobile-button-container {
+            margin: 0 auto;
+            width: 100% !important;
+        }
+
+        .mobile-button {
+            padding: 12px 59px 11px !important;
+            border: 0 !important;
+            display: block !important;
+        }
+        
+        .text-link {
+            color: #009bdb;
+            text-decoration: none;
+        }
+        
+        .text-link:hover {
+            color: #009bdb;
+            text-decoration: underline!imporant;
+        }
+    }
+
+    /* ANDROID CENTER FIX */
+    div[style*="margin: 16px 0;"] { margin: 0 !important; }
+</style>
+</head>
+<body style="margin: 0 !important; padding: 0 !important;">
+    
+<!--fix for the Gmail app for iOS to prevent font size increase.-->
+ <div class="gmailfix" style="white-space:nowrap; font:15px courier; line-height:0;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div> 
+
+
+<!-- HIDDEN PREHEADER TEXT -->
+<div style="display: none; font-size: 1px; color: #58595b; line-height: 1px; font-family: Avenir-Roman, Helvetica, Arial, sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+    No photos for you on Shutterfly
+</div>
+
+<!-- HEADER -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#ffffff" align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="570">
+            <tr>
+            <td align="center" valign="top" width="570">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 570px;" class="wrapper">
+                <tr>
+                    <td align="center" valign="top" style="padding: 28px 30px;" class="logo">
+                        <a href="/" target="_blank">
+                             <img alt="Lifetouch + Shutterfly" src="top-lockup-desktop.png" width="100%" height="79" style="display: block; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 16px; max-width: 435px" border="0">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#ffffff" align="center" style="padding: 5px 0 0 0;" class="section-padding">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="570">
+            <tr>
+            <td align="center" valign="top" width="570">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 570px;" class="responsive-table">
+                <tr>
+                    <td>
+                        <!-- HERO IMAGE -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              	<td class="padding" align="center" style="border-top: 1px solid #dcdee1;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <!-- COPY -->
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center" style="font-size: 15px; line-height: 18px; font-family: Avenir-Roman, Helvetica, Arial, sans-serif; color: #58595b; padding-top: 19px;" class="padding" >
+                                                You recently followed a link to verify the email address for your Lifetouch account. Unfortunately we did not find any digital photos associated with this email address.<br/><br/>
+                                                There are several reasons this could have occurred:<br/><br/>
+                                                1. Your school’s picture day hasn’t happened yet<br/>
+                                                2. Orders from your school’s Picture Day haven’t been fulfilled yet<br/>
+                                                3. You didn’t purchase your digital photos online on My Lifetouch.com<br/><br/>
+                                                Please contact our <a href="https://support.shutterfly.com/s/" style="color: #009bdb; text-decoration: none;"><span style="color: #009bdb;" class="text-link">Customer Care Team</span></a> if you need additional assistance or have any other questions.</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#ffffff" align="center" style="padding: 20px 0px;">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="570">
+            <tr>
+            <td align="center" valign="top" width="570">
+            <![endif]-->
+            <!-- UNSUBSCRIBE COPY -->
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="max-width: 570px;" class="responsive-table">
+                <tr>
+                    <td align="center" style="font-size: 12px; line-height: 18px; font-family: Helvetica, Arial, sans-serif; color:#666666;">
+<!--
+                        1234 Main Street, Anywhere, MA 01234, USA
+                        <br>
+                        <a href="http://litmus.com" target="_blank" style="color: #666666; text-decoration: none;">Unsubscribe</a>
+                        <span style="font-family: Arial, sans-serif; font-size: 12px; color: #444444;">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                        <a href="http://litmus.com" target="_blank" style="color: #666666; text-decoration: none;">View this email in your browser</a>
+-->
+                    </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+</table>
+</body>
+</html>
